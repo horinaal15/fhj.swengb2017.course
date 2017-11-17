@@ -8,8 +8,9 @@ object HelloWorld {
     println("Geht so")
     println("könnt besser sein")
     println("What's up, Michi?")
-    println("Da Franz war beim ÖBH")
+    println("zensiert")
     println("auf ans?")
+    println("I bin da Michi und kum von da Oim höhöhöhö")
   }
 
 }
