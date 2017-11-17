@@ -10,5 +10,6 @@ object Hello {
     println("Hallo i bims da Franz und ich liebe Sie")
     println("Guten Morgen, meine Damen und Herren - Martin")
     println("Guten Morgen, Thurid")
+    print("Ja hallo.")
 
 }
