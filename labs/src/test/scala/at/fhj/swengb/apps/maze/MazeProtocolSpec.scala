@@ -3,6 +3,7 @@ package at.fhj.swengb.apps.maze
 import org.scalacheck.Prop
 import org.scalatest.WordSpecLike
 import org.scalatest.prop.Checkers
+import scala
 
 
 /**
