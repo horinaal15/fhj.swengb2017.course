@@ -12,4 +12,5 @@ object Hello {
     println("Guten Morgen, Thurid")
     print("Ja hallo.")
 
+  }
 }
