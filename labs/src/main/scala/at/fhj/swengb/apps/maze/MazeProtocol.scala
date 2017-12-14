@@ -11,9 +11,19 @@ object MazeProtocol {
 
   def convert(pos: MazeProtobuf.Pos): Pos = ???
 
-  def convert(end: Pos): MazeProtobuf.Pos = MazeProtobuf.Pos.newBuilder().build()
+  def convert(pos: Pos): MazeProtobuf.Pos = {
+    val builder = MazeProtobuf.Pos.newBuilder()
+    builder.setX(pos.x)
+    builder.setY(pos.y)
+    builder.build()
+  }
 
-  def convert(cellRect: Rect): MazeProtobuf.Rect = MazeProtobuf.Rect.newBuilder().build()
+  def convert(cellRect: Rect): MazeProtobuf.Rect = {
+    val builder_two = MazeProtobuf.Rect.newBuilder()
+    builder_two.setWidth(cellRect.height)
+    builder_two.setHeight(cellRect.width)
+    builder_two.build()
+  }
 
   def convert(cell: Cell): MazeProtobuf.Cell = MazeProtobuf.Cell
     .newBuilder().build
